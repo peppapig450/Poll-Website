@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poll-website"
+version = "0.1.0"
+description = "First Django project of a Poll Website."
+authors = ["peppapig450 <nbgenius1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
