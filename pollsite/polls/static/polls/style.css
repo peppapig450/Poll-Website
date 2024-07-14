@@ -3,5 +3,9 @@ li a {
 }
 
 body {
-    background: white url("images/background.jpg") no-repeat center/cover;
+        background: linear-gradient(to bottom right, #d3d3d3, #ffffff);
+        height: 100vh; /* Ensure it covers the full viewport height */
+        margin: 0;
+        padding: 0;
 }
+    
